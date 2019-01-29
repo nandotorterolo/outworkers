@@ -1,0 +1,10 @@
+test:compile
+reload
+test:compile
+exit
+test:compile
+exit
+test:compile
+reload
+test:compile
+exit

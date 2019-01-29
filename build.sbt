@@ -7,6 +7,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "outworkers",
     libraryDependencies ++= Seq(
-      "com.outworkers" %% "phantom-dsl" % "2.12.6" % Compile  // << increase here
+      "com.outworkers" %% "phantom-dsl" % "2.32.0",
+      "org.scalatest" %% "scalatest" % "3.0.5" % Test  // << increase here
     )
   )
